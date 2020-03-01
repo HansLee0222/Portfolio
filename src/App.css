@@ -1,0 +1,243 @@
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  min-width: 100px;
+
+
+}
+#wrapper{
+  margin-left:auto;
+margin-right:auto;
+margin-top:auto;
+margin-bottom:auto;
+position:absolute;
+height:610px;
+width: 1420px;
+
+}
+.container{
+  padding-bottom: 6px;
+
+
+}
+.footer {
+  position: absolute;
+  width:100%;
+  bottom:0;
+  height:100px;
+  opacity: 80%;
+  background:grey;
+  z-index: 2;
+}
+.text2{
+
+text-align: center;
+margin-left: 320px;
+margin-top: 40px;
+position:absolute;
+font-family: 'Roboto', sans-serif;
+ font-weight: bold;
+ white-space: nowrap;
+ z-index: 3
+}
+
+
+.Circle{
+  position: relative;
+  float:left;
+  margin-left: 652px;
+  margin-top: 4.3rem;
+  opacity: 50%;
+  height:200px;
+  width:200px;
+  background-color: grey;
+border-radius: 50%;
+
+}
+
+
+
+.text1{
+  font-family: 'Abril Fatface', serif;
+  font-weight: 300;
+  margin-left: 685px;
+  margin-top: 120px;
+  text-align: center;
+  z-index: 1;
+  position: absolute;
+  overflow-x: hidden;
+  white-space: nowrap;
+
+}
+
+.text3{
+  font-family: 'Roboto', sans-serif;
+   font-weight: 300;
+   margin-left: 700px;
+   margin-top: 180px;
+   text-align: center;
+   z-index: 1;
+   position:absolute;
+    text-overflow: clip;
+    white-space:nowrap;
+
+
+}
+
+.main-section{
+  height: 610px;
+  margin: 0 0 0 0;
+  background: url("images/FrontCover.jpg") no-repeat scroll center center transparent;
+  background-size:cover;
+  background-attachment: fixed;
+  width:auto;
+
+
+}
+.wow{
+
+
+}
+
+
+.main-header{
+text-align:left;
+margin: 0 0 0 130px;
+position:relative;
+
+}
+.main-header h1{
+margin:0 0 0 0;
+font-family: 'Roboto', sans-serif;
+color: #000;
+font-size: 150px;
+line-height: 150px;
+position: sticky;
+}
+.main-header h1 span{
+    font-family: 'Roboto', sans-serif;
+  color: grey;
+}
+.circle-about{
+  position: absolute;
+  margin-left: 780px;
+  top:69px;
+  height:150px;
+  width:150px;
+  background-color: black;
+border-radius: 50%;
+
+}
+
+@media all and (max-width: 700px){
+  .main-header h1{
+  margin:0 0 0 0;
+  font-family: 'Roboto', sans-serif;
+  color: #000;
+  font-size: 90px;
+  line-height: 100px;
+  padding-left: 28px;
+    padding-top: 28px;
+  }
+
+  .text2{
+
+  text-align: center;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-top: 40epx;
+  position:absolute;
+  font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+   white-space: nowrap;
+   z-index: 3
+  }
+
+  .footer {
+    position: absolute;
+    width:30%;
+    bottom:0;
+    height:100px;
+    opacity: 50%;
+    background:grey;
+    z-index: 2;
+  }
+  .text1{
+    font-family: 'Abril Fatface', serif;
+    font-weight: 300;
+    font-size: 17px;
+    margin-left: 375px;
+    margin-top: 210px;
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    overflow-x: hidden;
+    white-space: nowrap;
+
+  }
+  .text3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+     font-weight: 300;
+     margin-left: 376px;
+     margin-top: 240px;
+     text-align: center;
+     z-index: 1;
+     position:absolute;
+      text-overflow: clip;
+      white-space:nowrap;
+
+
+  }
+
+
+    .Circle{
+      position: relative;
+      float:left;
+      margin-left: 360px;
+      margin-top: 11.3rem;
+      opacity: 50%;
+      height:100px;
+      width:100px;
+      background-color: grey;
+    border-radius: 50%;
+
+  }
+
+
+}
+
+.about-section{
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  height: 740.2px;
+  background-color:  #f1f1f1;
+}
+
+.contact-section{
+  height: 620px;
+  background-color: skyblue;
+
+
+}
+.about-section hr{
+  border:none;
+  border-top:16px dotted #000;
+  color:#fff;
+  background-color:none;
+  position: relative;
+  z-index: 1;
+  margin: 9rem 0 0 0;
+
+}
+
+.center {
+  padding-left: 1300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
