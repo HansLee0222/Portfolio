@@ -1,23 +1,28 @@
 import React, {Component} from 'react';
-import "./App.css"
-import "./Card.css"
-import Navbar from "./components/Navbar";
-import Main from "./Main";
-import About from "./About";
-import Contacts from "./Contacts"
+import{BrowserRouter,Route, Switch} from 'react-router-dom';
+import Intro from './intro'
+import Homepage from './homepage';
 
 class App extends Component {
-  render(){return (
-  <div id = 'wrapper'>
-    <div className="App">
+  constructor(){
+    super()
+  }
+  render(){
+  return (
 
-      <Main/>
-      <About/>
-      <Contacts/>
+  <BrowserRouter>
+  <React.Fragment>
+
+    <Switch>
+      <Route path= "/" exact component={Intro}/>
+      <Route path = "/home" exact component = {Homepage}/>
+    </Switch>
+
+  </React.Fragment>
+  </BrowserRouter>
 
 
-    </div>
-  </div>
+
   );
 }
 }

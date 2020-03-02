@@ -1,10 +1,12 @@
 import React, {Component} from 'react';
-
 import background from './images/FrontCover.jpg'
 class Main extends Component{
   state = {};
   render(){
-    return(<div>
+    return(
+
+
+      <div>
       <h1 className = 'text1'>Hans Lee</h1>
       <h3 className = 'text3'>Jr. Developer</h3>
 

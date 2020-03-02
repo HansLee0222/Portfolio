@@ -6,6 +6,7 @@ import react from './images/React.png'
 class About extends Component{
   render(){
     return(
+
       <div className = 'about-section' id = "about">
         <div className= 'main-header'>
           <h1 >Current<div className = 'circle-about'></div> <br/><span>Projects</span></h1>
@@ -14,6 +15,11 @@ class About extends Component{
 
 
         <div className = 'card-cotainer'>
+        <div className = 'small'>
+        <h3 className = 'small1'>Computation <br/> Biology</h3>
+        <h3 className = 'small2'>Music <br/>Visualization</h3>
+        <h3 className = 'small3'>Current<br/> Website</h3>
+        </div>
         <div class = 'card'>
         <div class = 'face'>
           <div class='face1'>
@@ -63,7 +69,7 @@ class About extends Component{
                 <div class = "react">
                 <img class = "react" src = {react}/>
                 </div>
-                <h3>Desgn</h3>
+                <h3>Current Website</h3>
                 </div>
               </div>
 
